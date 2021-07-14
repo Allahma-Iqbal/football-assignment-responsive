@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+}
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+a,ul,li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+
+/* ===================== Common Css ends ==================== */
+
+header{
+    background-image: linear-gradient(blue,rgb(50, 50, 173));
+    height: 677px;
+    width: 100%;
+
+}
+
+.menubar{
+    height: 50px;
+    padding-bottom: 42px;
+}
+
+
+
+.menu ul li{
+    float: left;
+    padding-left: 40px;
+    padding-top: 6px;
+}
+
+.menu ul li a{
+    color: white;
+    line-height: 80px;
+    font-size: 16px;
+    transition: all linear 0.3s;
+    
+}
+
+.menu ul li a:hover{
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+ .login{
+    color: white;
+    font-size: 16px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 24px;
+    transition: all linear 0.3s;
+ }
+ .login:hover{
+    color: black;
+    background-color: white
+}
+
+/* ================ menubar ends ===================== */
+
+
+/* ================== banner_parts start ================================== */
+
+.main{
+    margin-top: 50px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.main .banner{
+ width: 485px;
+ height: 400px;
+}
+.main .banner .copa_america_text{
+    font-size: 64px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+    margin-top: 10%;
+}
+.watch{
+    color: white;
+    font-size: 16px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 24px;
+    transition: all linear 0.3s;
+}
+
+.main .banner a:hover{
+    color: black;
+    background-color: white
+}
+
+.main .banner img{
+    height: 400px;
+    width: 100%;
+}
+
+/* =========================== Banner parts ends ================================ */
+
+/* ----------------------------------------- Break Time ------------------------------------ */
+
+/* =========================================== Blog part starts ========================= */
+
+.blog_part{
+    background-color: #fff;
+  
+    
+}
+.blog_part .blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    
+}
+
+.blog_part .blogs .blog{
+    background: #fff;
+    margin: 0px 15px;
+    height: 474px;
+    width: 330px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(95, 94, 94, 0.493);
+    
+}
+
+.blog_part .blogs .blog img{
+    width: 300px;
+    height: 256px;
+    margin: 0px 15px;
+    margin-top: 15px;
+}
+
+.blog_part .blogs .blog h2{
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 16px;
+    
+}
+
+.blog_part .blogs .blog p{
+    font-size: 14px;
+    color: #6C6C6C;
+    font-weight: normal;
+    margin: 5px 15px;
+}
+
+/* ==================================== Blog Part ends ========================= */
+
+/* ------------------------------------ Break Time ----------------------------- */
+
+.copa_america_part{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copa_text{
+    height: 450px;
+    width: 469px;
+    transition: all linear 0.3s;
+}
+
+.copa_text h1{
+    margin-top: 10%;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-left: 5%;
+}
+
+.copa_text p{
+    font-size: 16px;
+    color: #6C6C6C;
+    line-height: 20px;
+    margin-left: 5%;
+    margin-top: 10px;
+    
+}
+
+.copa_text .watch:hover{
+    background-color: white;
+    color: black;
+}
+
+.copa_television{
+    width: 567px;
+    height: 450px;
+
+}
+
+.copa_television img{
+    width: 567px;
+    height: 427px;
+}
+
+
+/* =============================== Copa Parts Ends ============================= */
+
+/* --------------------------------Break Time -------------------------------- */
+
+/* ================================ Footer Parts Start ======================== */
+
+
+footer{
+    height: 300px;
+}
+
+.footer_img{
+    width: 484px;
+    height: 110px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+ 
+.footer_ul{
+    margin-left: 37%;
+    margin-top: 2%;
+}
+.footer_li{
+float: left;
+padding-left: 20px;
+}
+.footer_li a{
+    font-size: 15px;
+    color: gray;
+    padding: 4px 8px;
+    background-color: gainsboro;
+    box-shadow: 2px 2px solid gray;
+    border-radius: 50px;
+    text-align: center;
+    transition: all linear 0.3s;
+}
+
+.footer_li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.copyright{
+    font-size: 18px;
+    margin-top: 6%;
+    text-align: center;
+    color: black;
+}
+
+/* ===================================== Footer Parts Ends ====================== */
+
+
+/*====================================== Responsive design Start ===============  */
+
+@media (max-width: 688px) {
+    .container{
+        width: 500px;
+    }
+    header {
+        background-image: linear-gradient(blue,rgb(50, 50, 173));
+    }
+    .main {
+    flex-direction: column;
+    display: flex;
+    
+}
+
+
+.menu ul li{
+    float: left;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+
+.menu ul li a{
+    color: white;
+    line-height: 10px;
+    font-size: 10px;
+    transition: all linear 0.3s;
+    
+}
+
+.menu ul li a:hover{
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+ .login{
+    color: white;
+    font-size: 10px;
+    padding: 5px 12px;
+    background-color: #E02C6D;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 15px;
+    transition: all linear 0.3s;
+ }
+ .login:hover{
+    color: black;
+    background-color: white
+}
+
+    .main .banner{
+        width: 500px;
+        height: 505px;
+        margin-left: -50%;
+      
+       }
+       .main .banner .copa_america_text{
+           font-size: 36px;
+           color: #fff;
+           font-weight: bold;
+           margin-left: 15%;
+           margin-top: 35%;
+       }
+       .watch{
+           color: white;
+           font-size: 16px;
+           padding: 10px 24px;
+           background-color: #E02C6D;
+           position: absolute;
+           margin-left: 20%;
+           margin-top: 24px;
+           transition: all linear 0.3s;
+       }
+       
+       .main .banner a:hover{
+           color: black;
+           background-color: white
+       }
+       
+       .main .banner img{
+           height: 200px;
+           width: 329PX;
+           margin-top: 25%;
+           margin-left: 10%;
+       }
+
+       /* =============== main parts ends ===================== */
+
+
+
+       .blog_part .blogs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    
+}
+/* ======================= Blog Parts css ends ============== */
+
+
+.copa_america_part{
+    flex-direction: column;
+}
+
+.copa_text{
+    margin-left: 20%;
+
+}
+
+.copa_television img{
+    width: 328px;
+    height: 248px;
+    margin-left: 22%;
+}
+
+/* ================ Copa PARTS ENDS ============== */
+
+.footer_img{
+height: 63px;
+width: 150px;
+}
+footer .footer_ul{
+    margin-left: 20%;
+}
+footer .copyright{
+    margin-top: 12%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
